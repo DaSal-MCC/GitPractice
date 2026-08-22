@@ -13,6 +13,13 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
+        VStack {
+                    Text("Git Practice App")
+                        .font(.title)
+                    Text("Built by David Salazar")
+                        .font(.headline)
+                }
+                .padding()
         NavigationViewWrapper {
             List {
                 ForEach(items) { item in
