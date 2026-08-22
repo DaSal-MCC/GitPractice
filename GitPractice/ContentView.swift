@@ -18,6 +18,9 @@ struct ContentView: View {
                         .font(.title)
                     Text("Built by David Salazar")
                         .font(.headline)
+                    Text("Learning Git one commit at a time.")
+                        font(.subheadline)
+                        .foregroundColor(.secondary)
                 }
                 .padding()
         NavigationViewWrapper {
